@@ -6,14 +6,14 @@
 
 
 def input_text():
-    some_text = []
+    some_list = []
     while True:
         text = input("Введите текст: ").lower()
         print("Для подсчета статистики после ввода текста нажите (Enter)")
         if text != "":
-            some_text.append(text)
+            some_list.append(text)
         else:
-            return some_text
+            return some_list
 
 
 def count_numbers(one_symbol):
