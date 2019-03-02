@@ -9,6 +9,7 @@ def input_text():
     some_text = []
     while True:
         text = input("Введите текст: ").lower()
+        print("Для подсчета статистики после ввода текста нажите (Enter)")
         if text != "":
             some_text.append(text)
         else:
